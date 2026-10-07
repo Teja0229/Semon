@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb, #fbc2eb);
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border : 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+.btn, h2{
+    cursor: pointer;
+}
